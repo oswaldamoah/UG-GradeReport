@@ -1,0 +1,68 @@
+
+.instructor-title {
+    margin-left: 190px;
+}
+
+.instructor-body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    margin-left: 100px;
+  }
+  
+  /* Styling for the table */
+  .instructor-table-container {
+    margin-top: 20px;
+  }
+  
+  .instructor-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+  }
+  
+  .instructor-table th, .instructor-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .instructor-table tbody tr:hover {
+    background-color: #f2f2f2;
+  }
+  
+  /* Styling for the email form */
+  .email-form-container {
+    margin-top: 20px;
+  }
+  
+  .email-form label {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+  }
+  
+  .email-form select, .email-form input, .email-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 6px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+  }
+  
+  .email-form button {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .email-form button:hover {
+    background-color: #45a049;
+  }
+  
