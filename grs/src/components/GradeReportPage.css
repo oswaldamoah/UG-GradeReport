@@ -1,0 +1,59 @@
+
+.grade-report-page {
+    margin: 20px;
+  }
+  
+  .grade-title {
+    color: #333;
+    margin-left: 290px;
+
+  }
+
+  .grade-body {
+    margin-left: 120px;
+  }
+  
+
+
+  .grade-button {
+    margin-left: 360px;
+    background-color: #ffffff;
+    color: white;
+    padding: 12px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none; 
+    display: inline-block; 
+  }
+  
+  .grade-button:hover {
+    background-color: #bebebe;
+  }
+
+
+  
+
+  .select {
+    margin: 10px;
+    padding: 5px;
+  }
+  
+  .grade-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .grade-table th, .grade-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .grade-table th {
+    background-color: #f2f2f2;
+  }
+  
