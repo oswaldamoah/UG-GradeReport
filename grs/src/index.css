@@ -1,0 +1,98 @@
+div {
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+.HeaderItems {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+  }
+  
+  .login-button {
+    text-decoration: none; 
+    padding: 10px 20px;
+    border: 2px solid #302c5c;
+    background-color: #302c5c;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s; 
+  
+  
+    display: inline-block;
+  }
+  
+  .login-button:hover {
+    background-color: #c09c6c;
+    color: #302c5c;
+  }
+  
+  .login-button:active {
+    background-color: #c09c6c;
+    color: #302c5c;
+  }
+  
+
+nav {
+  margin-left: auto;
+  margin-right: 60px;  
+  margin-top: 3px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+
+.banner-content {
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+.banner-title, .banner-overview {
+  text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.BannerImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+}
+
+.BannerImage:hover {
+  transform: scale(1.01); 
+  box-shadow: 0px 16px 40px grey;
+}
+
+
+.footer-container {
+  background-color: #333; 
+  color: #fff; 
+  padding: 20px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-items {
+  flex: 1;
+  margin-left: 250px;
+  margin-right: 250px;
+  text-align: center;
+
+}
+
+.pdf-iframe {
+  zoom: 100%;
+}
+
+.parent-container {
+  display: flex;
+}
+  
