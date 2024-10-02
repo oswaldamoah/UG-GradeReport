@@ -1,0 +1,38 @@
+.sidebar-container {
+  position: relative;
+  background-color: #f0f0f0;
+  width: 200px;
+  height: auto;
+}
+
+.trigger {
+  width: 20px;
+  height: 100vh;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+nav {
+  padding: 20px;
+}
+
+nav a {
+  display: block;
+  text-decoration: none;
+  color: #302c5c; 
+  padding: 10px 0;
+  width: 100%;
+  box-sizing: border-box; 
+  transition: color 0.3s; 
+}
+
+nav a:hover {
+  color: #c09c6c; 
+}
+
+nav a.active {
+  color: #c09c6c; 
+}
