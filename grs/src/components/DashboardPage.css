@@ -1,0 +1,72 @@
+/* Appropriate styling for your Dashboard titles and bodies */
+.dashboard-title {
+    margin-left: 90px;
+  }
+  
+  .dashboard-body {
+    margin-left: 90px;
+  }
+
+  .dashboard-title2 {
+    margin-left: 300px;
+  }
+
+  .dashboard-body2 {
+    margin-left: 100px;
+  }
+
+  .CurrentGradesImage:hover {
+    transform: scale(0.999); 
+    box-shadow: 0px 16px 40px grey;
+  }
+
+
+  
+  /* Modern styling for your dashboard buttons */
+  .dashboard-button {
+    margin-top: 21px;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green color, you can customize this */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  
+    /* Add any additional styling you desire */
+  }
+  
+
+  
+
+.dashboard-button2 {
+    padding: 10px 20px;
+    background-color: #af4c4c; /* Green color, you can customize this */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  
+  }
+
+
+
+
+
+.dashboard-button-contents {
+    margin-left: 250px;
+    margin-bottom: 0;
+}
+
+.DashboardBannerImage {
+    height: 280px;
+    object-fit: cover;
+    border-radius: 20px;
+    transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+}
+
+.DashboardBannerImage:hover {
+    transform: scale(1.01); 
+    box-shadow: 0px 16px 40px grey;
+  }
