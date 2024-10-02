@@ -1,0 +1,58 @@
+.help-title {
+  margin-left: 290px;
+}
+
+
+.help-body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    margin-left: 100px;
+    width: 600px;
+  }
+  
+
+.form-container {
+  margin-top: 20px;
+}
+
+form {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 600px;
+}
+
+form label {
+  display: block;
+  margin: 10px 0;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+form button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; /* Same font as HeaderItems */
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+
+/* Add more styles as needed */
